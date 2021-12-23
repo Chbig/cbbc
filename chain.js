@@ -1,6 +1,5 @@
 const Block = require("./block");
 
-
 class BlockChain {
     constructor() {
         this.blockchain = [this.startGenesisBlock()];
